@@ -85,8 +85,48 @@
 
 例として `Lower Camel First` という文字列を選択していた場合 `lower Camel First` と変換されます。
 
+### 代入文をそろえる
+
+選択された文字列を代入文として扱い、
+
+例.
+
+```
+var x = 10;
+var test =20; // test
+```
+
+という文字列は
+
+```
+var x    = 10;
+var test = 20; // test
+```
+
+と、このような感じで位置を揃えることができます。
+
+### カラムをそろえる
+
+選択された文字列を空白区切りのデータとして扱い、それぞれのカラムの位置を揃えます。
+
+例.
+
+```
+a, bbbbb, cccccc, d
+xyz, yy, z
+```
+
+という文字列は
+
+```
+a,   bbbbb, cccccc, d
+xyz, yy,    z
+```
+
+と、このような感じで位置を揃えることができます。
+
 ## ライセンス
 
-Copyright(c) 2015 sharkpp All rights reserved.
+Copyright(c) 2015-2016 sharkpp All rights reserved.
 
 このプラグインは、The MIT License が適用されます。

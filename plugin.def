@@ -2,7 +2,7 @@
 ; plugin.def - 「テキスト変換拡張パック」プラグイン定義ファイル
 ;-------------------------------------------------------------------------------
 ;
-; Copyright(c) 2015 sharkpp All rights reserved.
+; Copyright(c) 2015-2016 sharkpp All rights reserved.
 ;
 ; The MIT License
 ;
@@ -60,4 +60,10 @@ C[6].Label=頭を大文字に変換
 ;
 C[7]=js\lcfirst.js
 C[7].Label=頭を小文字に変換
+;
+C[8]=js\normalize_let.js
+C[8].Label=代入文をそろえる
+;
+C[9]=js\normalize_column.js
+C[9].Label=カラムをそろえる
 
